@@ -1,0 +1,36 @@
+.userslist_card {
+  position: relative;
+  top: 100px;
+  width: 50%;
+  margin: 40px auto;
+  padding: 50px;
+}
+ul {
+  padding-left: 0px;
+}
+.users ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.users li {
+  display: list-item;
+  font-size: 20px;
+  font-weight: 500;
+  list-style-type: none;
+  padding: 20px 30px;
+  margin: 20px auto;
+  border: 2px solid;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.users li:hover {
+  background-color: teal;
+  cursor: pointer;
+}
+
+.nousertext {
+  text-align: center;
+}
